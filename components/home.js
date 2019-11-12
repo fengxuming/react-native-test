@@ -111,15 +111,9 @@ export default class App extends React.Component {
             <Title>Header</Title>
           </Header> */}
         <MainContent />
-<<<<<<< HEAD
         {/* <Button onPress={()=>{
           navigate('Details',{ go_back_key: state.key });
         }}><Text>test</Text></Button> */}
-=======
-        <Button onPress={()=>{
-          navigate('Details',{ go_back_key: state.key });
-        }}><Text>test</Text></Button>
->>>>>>> fd2ebd098ea61803111fe1fb659c07b85778d6cd
         <Footer>
           <FooterTab>{NavList}</FooterTab>
         </Footer>

@@ -390,11 +390,7 @@ export default class App extends React.Component {
                     : 'https://facebook.github.io/react-native/img/tiny_logo.png',
                 }}
               />
-<<<<<<< HEAD
               <Text style={{width: 100, height: 35, fontSize: 12,marginTop:7}}>
-=======
-              <Text style={{width: 70, height: 35, fontSize: 12}}>
->>>>>>> fd2ebd098ea61803111fe1fb659c07b85778d6cd
                 {i.name}
               </Text>
             </Button>
@@ -414,11 +410,7 @@ export default class App extends React.Component {
               value={this.state.keyword}
               onChangeText={this.handleChange}
             />
-<<<<<<< HEAD
             <Button style={styles.searchButton} onPress={this.search}>
-=======
-            <Button onPress={this.search}>
->>>>>>> fd2ebd098ea61803111fe1fb659c07b85778d6cd
               <Text>Search</Text>
             </Button>
           </Item>
@@ -430,12 +422,9 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-<<<<<<< HEAD
   searchButton:{
     height:30
   },  
-=======
->>>>>>> fd2ebd098ea61803111fe1fb659c07b85778d6cd
   content: {
     overflow: 'scroll',
     // paddingTop:50
@@ -446,10 +435,7 @@ const styles = StyleSheet.create({
     // top:0
   },
   listItem: {
-<<<<<<< HEAD
     marginBottom:10,
-=======
->>>>>>> fd2ebd098ea61803111fe1fb659c07b85778d6cd
     borderWidth:0,
     backgroundColor:'#fff',
     width: 80,
